@@ -3,13 +3,15 @@ layout: default
 title: 我的Blog
 ---
 <div id="main_content_wrap" class="outer">
-	<h2>{{ page.title }}</h2>
-	<p>最新文章</p>
-	<ul>
-	{% for post in site.posts %}
-		<li>{{ post.date | date_to_string }} 
-			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-		</li>
-	{% endfor %}
-	</ul>
+	<section id="main_content" class="inner">
+		<h2>{{ page.title }}</h2>
+		<p>最新文章</p>
+		<ul>
+		{% for post in site.posts %}
+			<li>{{ post.date | date_to_string }} 
+				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+			</li>
+		{% endfor %}
+		</ul>
+	</section>
 </div>
