@@ -6,7 +6,7 @@ kramdown:
 rouge: true
 permalink: /:title
 
-title: 二十载，不得功名，无德无能
+title: 猿媛茶馆
 url: http://frl1994.github.io/
 feed: /atom.xml
 author_info: <a href="http://frl1994.github.io/">WalterFRL</a>
