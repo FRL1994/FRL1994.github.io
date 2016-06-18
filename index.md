@@ -5,7 +5,7 @@ layout: home
 <div class="index-content coding">
   <div class="section">
     <ul class="artical-cate">
-      <li class="on"><a href="/coding"><span>编码世界</span></a></li>
+      <li class="on"><a href="/"><span>编码世界</span></a></li>
       <li style="text-align:center"><a href="/life"><span>品茶论道</span></a></li>
     </ul>
 
