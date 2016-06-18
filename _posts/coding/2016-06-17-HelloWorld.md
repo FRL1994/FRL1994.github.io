@@ -7,6 +7,8 @@ description: 编码第一步，hello world
 
 ## 欢迎大家来到我的猿媛茶馆，我是WalterFRL，我是一名有思想的搬运工
 
+## 开篇不来点helloworld，真的感觉自己好像不配做程序员
+
 ### JAVA -> 向Java之父 詹姆斯·高斯林 致敬
 ```
 public class HelloWorld
