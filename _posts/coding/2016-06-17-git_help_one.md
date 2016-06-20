@@ -35,7 +35,7 @@ description: 编码第二步，管好你的代码
 + 初始化
   - git init
   	- 初始化git，并在生成.git文件夹.这个目录包含了几乎所有 Git 存储和操作的对象.
-  	- 具体可以查看Git内部原理这一章:<a href="https://git-scm.com/book/zh/v2/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86-%E5%BA%95%E5%B1%82%E5%91%BD%E4%BB%A4%E5%92%8C%E9%AB%98%E5%B1%82%E5%91%BD%E4%BB%A4"></a>
+  	- 具体可以查看Git内部原理这一章:[Git-内部原理-底层命令和高层命令](https://git-scm.com/book/zh/v2/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86-%E5%BA%95%E5%B1%82%E5%91%BD%E4%BB%A4%E5%92%8C%E9%AB%98%E5%B1%82%E5%91%BD%E4%BB%A4)
 + 检出仓库:
   - 本地：git clone /path/to/repository 
   	- PS: “/path/to/repository”是你需要克隆的本地仓库的路径，这里示范的是linux下的路径
