@@ -33,13 +33,16 @@ description: 编码第二步，管好你的代码
 
 ### git使用简介
 + 初始化
-  - git init
+  - git init（初始化完成以后别关闭这个黑框框）
   	- 初始化git，并在生成.git文件夹.这个目录包含了几乎所有 Git 存储和操作的对象.
-  	- 具体可以查看Git内部原理这一章:[Git-内部原理-底层命令和高层命令](https://git-scm.com/book/zh/v2/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86-%E5%BA%95%E5%B1%82%E5%91%BD%E4%BB%A4%E5%92%8C%E9%AB%98%E5%B1%82%E5%91%BD%E4%BB%A4)
+  	- 具体可以查看Git内部原理这一章: [Git-内部原理-底层命令和高层命令](https://git-scm.com/book/zh/v2/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86-%E5%BA%95%E5%B1%82%E5%91%BD%E4%BB%A4%E5%92%8C%E9%AB%98%E5%B1%82%E5%91%BD%E4%BB%A4)
 + 检出仓库:
   - 本地：git clone /path/to/repository 
   	- PS: “/path/to/repository”是你需要克隆的本地仓库的路径，这里示范的是linux下的路径
   - 服务器：git clone username@host:/path/to/repository
   	- PS：“username@host:/path/to/repository”是你需要克隆到本地的服务器仓库的路径，例如：我的openfragment库的git地址为：https://github.com/FRL1994/OpenFragment.git，而这个例子中要输的命令就是git clone https://github.com/FRL1994/OpenFragment.git。(句号别输入进去)
-
+  - 检出完成以后，目录下有的时候会多一个文件夹，进去以后会有.git的文件夹
+  	- 这时候，你应该右键那个文件夹：选择git bash here
++ 添加远程仓库:
+  - git remote add origin
 ### 编辑中……（我也不知道什么时候能更新完）
